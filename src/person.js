@@ -32,7 +32,6 @@ class Person {
   ]);
   
   let greeting = person.hello();
-  console.log(greeting);
   
   module.exports = Person;
   
