@@ -21,7 +21,7 @@ describe("the generic data and functionality of a human", function() {
     expect(ryan.name).toEqual("Ryan");
   });
 
-  it("should contain a name", function() {
+  it("should contain age of the person", function() {
     let ryan = new Person("Ryan", 30, "male", [
       "being a hardarse",
       " agile",
@@ -30,7 +30,7 @@ describe("the generic data and functionality of a human", function() {
     expect(ryan.age).toEqual(30);
   });
 
-  it("should contain a name", function() {
+  it("should contain gender of the person", function() {
     let ryan = new Person("Ryan", 30, "male", [
       "being a hardarse",
       " agile",
